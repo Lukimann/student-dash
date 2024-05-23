@@ -68,4 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# student-dash
+# About the app
+As a user, for you to be able to integrate wwith the app,yu need to register yourself.You can either register as a schoolowner,a student or an instructor.You should enter your first name,lastname,email,password that you will use and yu also need to confirm your password.If you already ahve an account,you should be able to login using your email and your password.
+-When you go to the about ,you should the informaation about virtual learn schools which is the courses we offer and their description.
+
+When you go to the contacts dashboard,you should see the varoious ways you can contact us and give us feedback.
+
+# Signup process
+The first a user interacts with our app, they should be able to see a button that when clicked,should take you to a form that enables you to register either as a schoolowner,student or an instructor
+
+# SchoolownerDashboard
+Once a schoolowner gets into the owners dashbord,they should be able to see differrent schools they own with the name od the school.They should also be able to delete a school by clicking on the red button at the bottom of every school.As a user who is a schoolowner,you should be able to perform certainn functions.On a schoolowner dashboard,you should be able to see differrent routes that for adding a  school,adding an instructor and adding a student.
+   
+    -To be able to add a school,a schoolowner should be able click on the createschool route .It will take you to a form that enables  a schoolowner to add a school.
+   
+   -For a schoolowner to be able to add an instructor, you should  click on link to the addTeacher link.This should take you to a form that enables a person to add tha name,the course_id the instructor will teach and the school_id of the school the technical mentor will teach.
+
+   -For a user to be able to add a student ,they should be click on the addStudent link on the side of the page.This should take them to a form that will enable them to add the name of a student,the course_id of the course the student will learn ,the school_id of the school the student will learn from and the resource where a student will get learning materials from.
+
+   -When a schoolowner wants to logout , they should click onthe sidebar that is written Logout.I t should take you back to the  log in form.
+
+# Student dashboard
+When a use is logged in as a student, they should be able to see the assessments,the exams and a logout link on the sidebar.
+     -When a user clicks on the exams they should be able to see a quiz where they should see the questions baesd on the specific course.To prevent plagerism, a student cannot be able to copy  paste on a specific  quiz.Once the quiz is submitted,the student should be able to see the score they got on the specific quiz.The link for the quiz is on a sidebar.
+    
+    -When a user clicks on the logout,they should be to the login page.The logout page should be on a sidebar.
+
+    A user should see the courses they enrolled in with an option for deleting a course.When a student clicks on  the delete button,they should be able to delete a course form their courses.  When a student clicks on a specific course,they should be able to see the link to the resources to the courses they enrolled in.
+
+# Instructor dashboard
+When a user registers as an instructor they should be able to see different links as follows:
+   The first link is the student Attendance.When an instructor clicks on this link they should be able to add an attendance by adding the id of a student,the id of the school the student is currently in , the id of the course the student takes and the date of the class the student attended
+
+   The second link is the Resource which an instructor can use for a class.The instructorcan decide whether to use a locam file or a link that has the required information by using a form.When the instructor adds the resoursemthey should be able to see the resourse they uploaded.
+
+   The third link is the 

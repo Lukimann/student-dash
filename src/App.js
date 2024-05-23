@@ -20,6 +20,7 @@ import Contacts from "./components/Contacts.jsx"
 import About from "./components/About.jsx"
 function App() {
   return (
+    <div className='overflow-scroll'>
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -47,6 +48,7 @@ function App() {
         {/* <Route path='login' element={<div> Login page</div>}/> */}
       </Routes>
     </Router>
+    </div>
   );
 }
 
